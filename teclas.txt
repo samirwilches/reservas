@@ -1,0 +1,104 @@
+para salir de la ventana usamos comandos:
+Esc + shift + z + z
+
+git show: sirve para mostrar los cambios que he hecho al archivo
+
+git add: sirve para añadir los cambios hechos en el archivo
+
+commit -m: sirve para mandar al repositorio
+
+ckeckout: traer los ultimos cambios del repositorio hacia mi carpeta local
+
+merge: sirve para unir las ramas
+
+git reset + numero de commit --hard: elimina todo lo de la version nueva y deja la version antigua
+
+git reset + numero de commit --soft: deja el codigo en stage para añadirlo al siguiente commit
+
+git status: sirve para verificar que todo este en sincronizacion
+
+git diff: muestra los cambios
+
+git checkout + numero de commit: volver a la version inicial
+
+git checkout master: volver nuevamente a la version mas reciente o a la ultima version
+
+Git reset
+El comando git reset es una herramienta poderosa que te permite deshacer o revertir cambios en tu repositorio de Git. Lo puedes ejecutar de tres maneras diferentes, con las líneas de comando --soft, --mixed y --hard.
+
+git reset --soft: Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging para aplicar las últimas actualizaciones a un nuevo commit.
+
+git reset --hard: Deshace todo, absolutamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+
+git reset --mixed: Borra todo, exactamente todo. Toda la información de los commits y del área de staging se elimina del historial.
+
+git reset HEAD: El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión.
+
+Git rm
+Por otro lado, git rm es un comando que nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones. Para recuperar el archivo eliminado, necesitamos retroceder en la historia del proyecto, recuperar el último commit y obtener la última confirmación antes de la eliminación del archivo.
+
+git rm --cached: Elimina archivos del repositorio local y del área de staging, pero los mantiene en el disco duro. Deja de trackear el historial de cambios de estos archivos, por lo que quedan en estado untracked.
+
+git rm --force: Elimina los archivos de Git y del disco duro. Git guarda todo, por lo que podemos recuperar archivos eliminados si es necesario (empleando comandos avanzados).
+
+git branch + nombre que le ponga a la rama: crea una nueva rama
+
+git config: lista de comandos.
+
+git config --list: configuracion por defecto
+
+git config -- global user.name "": colocar nombre de usuario
+ 
+git config -- global email.name "": colocar correo de usuario
+
+ssh-keygen -t rsa -b 4096 -C "wilchessamir@gmail.com":  configurar llave publica y privada
+
+eval $(ssh-agent -s):  evaluando el funcionamiento de las llaves
+
+git remote add origin + url: Agregar un origen remoto de nuestros archivos
+
+git push origin master: enviar la configuracion al master
+
+git pull origin master: traer la informacion al master
+
+master ahora es main
+
+git pull origin main --allow-unrelated-histories:  obliga a los merge a fusionarse el local con el web
+
+git push origin --tags:  enviar los tags a servidor
+
+git tag -d + nombre tag: eliminar tag
+
+git push origin :refs/tags/+nombre del tag: eliminar del servidor o github
+
+alias arbolito="git log --all --graph --decorate --oneline": sirve para revisar todos los cambios realizados
+
+git clone + copiar link: sirve para traer el repositorio y no tener que inicializarlo
+
+git merge +nombre de rama:  fusionar ramas
+
+pull request:  estado medio para revisar los cambios para hacer el merge
+
+git branch -D + nombre de rama: eliminar la rama
+
+git stash: devolver los cambios
+
+git cherry-pick + numero de commit: volver a esa version y despues hacer un merge.	
+
+git reset HARD + numero de commit: volver a la normalidad los cambios hechos 
+
+git reflog:  se ven todos los cambios hechos
+
+git config --global alias.stats "shortlog -sn --all --no-merges" :  configurar alias para ver los commits que hizo cada integrante del equipo
+
+git blame + nombre de archivo o carpeta:  saber quien fue el que modifico el archivo
+
+git branch -r:  ramas remotas de servidor
+
+git branch -a:  ramas locales y ramas remotas de servidor
+
+git init: iniciar proyecto
+
+$ git remote add origin + url repositorio
+
+
