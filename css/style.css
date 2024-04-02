@@ -1,0 +1,96 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    width: 99vw;
+    height: 100vh;
+    background-color: peachpuff;
+}
+.page-header
+{
+    width: 100vw;
+    height: 10vh;
+    font-size: 20px; 
+    border: 2px black ;
+    display: inline-block;
+    background-color: white;
+}
+.img-header
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 1180px;
+    display: inline-block;
+}
+#imagen
+{
+    width: 80px;
+    margin-top: 8px;
+    margin-left: 5px;
+    display: inline-block;
+}
+#texto
+{
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 550px;
+}
+.nave
+{
+    margin-top: 18px;
+    margin-bottom: 2px;
+    list-style-type: none;
+    display: inline-block;
+    position: absolute;    
+}
+.nave a
+{
+    color: white;
+    background: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.caja
+{
+    position: relative;
+    display: inline-block;
+}
+#inicio
+{
+    width: 100vw;
+    height: 89vh;
+    position: relative;
+}
+.texto1
+{
+    color: white;
+    font-size: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 33%;
+}
+.texto2
+{
+    color: white;
+    font-size: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 270px;
+    left: 33%;
+}
+.boton
+{
+    display: inline-block;
+    position: absolute;
+    top: 450px;
+    left: 48%;
+}

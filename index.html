@@ -1,20 +1,34 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
     <head>
-        <title>Reservas</title>
-        <link rel="stylesheet" href="css/estilos.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Este es la pagina principal de la reserva">
+        <meta name="robots" content="index-follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Canchas Sinteticas</title>
     </head>
     <body>
-        <div id="container">
-            <div id="post">
-                <img id="logo" src="Imagenes/logo.png" style="float: left;" alt="">
-                <h2 id="texto" style="text-align: center;">Facagol</h2>
-                <img id="login" src="Imagenes/login.jpg" style="float: right;" alt="">
-                <!--<p>Y este es el parafo de inicio donde vamos a explicar las cosas increibles del post</p>-->
-            </div> 
-        </div>
-        <div id="reservass">
-        <img id="reser" src="Imagenes/reserva.jpeg" alt="">
-        <input id="boton" type="submit" value="prueba">
-        </div>
+        <header class="page-header">
+        <nav>
+            <figure class="img-header">
+                <img id="imagen" src="./imagenes/logo.png" alt="">
+                <span id="texto">Facagol</span>
+            </figure>
+            <ul id="main-nav" class="nave">
+                <li><a href="">Usuarios</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main class="caja">
+            <figure>
+                <img id="inicio" src="./imagenes/inicio.jpg" alt="">
+            </figure>
+            <p class="texto1">Canchas sinteticas</p> 
+            <p class="texto2">Realiza tu reserva</p> 
+            <a href="inicio.html" class="boton">
+                <button type="submit">Reserva</button>
+            </a>
+        </main>
     </body>
 </html>
