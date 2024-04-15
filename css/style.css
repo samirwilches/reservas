@@ -171,4 +171,49 @@
         text-align: center;
         border: 1px solid var(--hospital-green);
     }
+    .caja-pagina2 {
+        width: auto;
+        height: 85vh;
+    }
+    .pagina2-cancha1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 4px;
+    }
+    .titulo {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .descripcion {
+        font-size: var(--lg);
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    .disponibilidad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .disponibilidad .calendario {
+        padding-top: 15px;
+        height: 40px;
+        padding-bottom: 20px;
+    }
+    .disponibilidad a {
+        padding-top: 20px;
+    }
+    .disponibilidad button{
+        background-color: var(--hospital-green);
+        border-radius: 8px;
+        border: none;
+        color: var(--black);
+        height: 40px;
+        width: 100px;
+        cursor: pointer;
+        font-size: var(--lg);
+        font-weight: bold;
+    }
    
