@@ -18,10 +18,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" class="facagol">Facagol</a>
+                        <a href="../index.html" class="facagol">Facagol</a>
                     </li>
                     <li  class="usuario">
-                        <a href="">Usuarios</a>
+                        <a href="../sesion/sesion.html">Iniciar Sesion</a>
                     </li>
                 </ul>
             </nav>
@@ -39,12 +39,17 @@
                     <input type="number" id="documento" placeholder="NoDoumento" class="input input-documento">
 
                     <label for="email" class="label">Email adress</label>
-                    <input type="email" id="email" placeholder="email@email.com" class="input input-email">
+                    <input type="email" id="email" placeholder="Email@email.com" class="input input-email">
 
                     <label for="password" class="label">Password</label>
                     <input type="password" id="password" placeholder="*********" class="input input-password">
 
-                    <input type="submit" value="Crear Cuenta" class="primary-button login-button">
+                    <label for="rol" class="label">Rol</label>
+                    <input type="text" id="rol" placeholder="Jugador" class="input input-rol">
+                    
+                    <button  id="iniciar-login">
+                        <a href="./sesion.html">Crea tu Cuenta</a>
+                    </button>                  
                 </form>
             </div>         
         </main>

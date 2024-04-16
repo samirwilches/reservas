@@ -279,3 +279,31 @@
         font-size: var(--md);
         font-weight: bold;
     }
+    #inicio-boton {
+        background-color: var(--hospital-green);
+        border-radius: 8px;
+        border: none;
+        color: var(--black);
+        height: 40px;
+        width: 100%;
+        cursor: pointer;
+        font-size: var(--md);
+        font-weight: bold;
+    }
+    #inicio-boton a{
+        color: var(--black);
+    }
+    #iniciar-login {
+        background-color: var(--hospital-green);
+        border-radius: 8px;
+        border: none;
+        color: var(--black);
+        height: 40px;
+        width: 100%;
+        cursor: pointer;
+        font-size: var(--md);
+        font-weight: bold;
+    }
+    #iniciar-login a{
+        color: var(--black);
+    }
