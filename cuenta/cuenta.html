@@ -5,7 +5,7 @@
         <meta name="description" content="Este es la pagina principal de la reserva">
         <meta name="robots" content="index-follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="style.css">
         <title>Canchas Sinteticas</title>
     </head>
     <body>
@@ -21,7 +21,7 @@
                         <a href="../index.html" class="facagol">Facagol</a>
                     </li>
                     <li  class="usuario">
-                        <a href="">Usuarios</a>
+                        <a href="../sesion/sesion.html">Iniciar Sesion</a>
                     </li>
                 </ul>
             </nav>
@@ -29,15 +29,27 @@
         <main class="login">  
             <div class="form-container">
                 <form action="/" class="formulario">
+                    <label for="nombre" class="label">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre" class="input input-nombre">
+
+                    <label for="apelido" class="label">Apellido</label>
+                    <input type="text" id="apellido" placeholder="Apellido" class="input input-apellido">
+
                     <label for="documento" class="label">Numero Documento</label>
                     <input type="number" id="documento" placeholder="NoDoumento" class="input input-documento">
+
+                    <label for="email" class="label">Email adress</label>
+                    <input type="email" id="email" placeholder="Email@email.com" class="input input-email">
 
                     <label for="password" class="label">Password</label>
                     <input type="password" id="password" placeholder="*********" class="input input-password">
 
-                    <button  id="inicio-boton">
-                        <a href="./paginas/pagina1.html">Iniciar Sesion</a>
-                    </button>
+                    <label for="rol" class="label">Rol</label>
+                    <input type="text" id="rol" placeholder="Jugador" class="input input-rol">
+                    
+                    <button  id="iniciar-login">
+                        <a href="../paginas/pagina1.html">Crea tu Cuenta</a>
+                    </button>                  
                 </form>
             </div>         
         </main>

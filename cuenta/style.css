@@ -1,0 +1,129 @@
+:root {
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    --white: #ffffff;
+    --black: #000000;
+    --sm: 14px; 
+    --md:16px;
+    --lg:18px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+.header-nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid var(--hospital-green);
+    list-style: none;
+    
+}
+.header-nav img {
+    width: 80px;
+    padding-left: 5px;
+    margin-top: 6px;
+}
+.header-nav a{
+    text-decoration: none;
+}
+.facagol{
+    color: var(--black);
+    font-size: 40px;
+    font-weight: bold;
+}
+.usuario a{
+    color: var(--white);
+    background: #13a4a4;   
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login {
+    width: 100vw;
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+.form-container {
+    width: 500px;
+    height: auto;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.formulario a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+.label {
+    font-size: var(--sm);
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.input {
+    background-color: var(--text-input-field);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+}
+.input-nombre,
+.input-apellido,
+.input-documento,
+.input-email,
+.input-password,
+.input-rol {
+    margin-bottom: 22px;
+}
+#inicio-boton {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--black);
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+}
+#inicio-boton a{
+    color: var(--black);
+}
+#iniciar-login {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--black);
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+}
+#iniciar-login a{
+    color: var(--black);
+}
+.final-pagina1 {
+    width: auto;
+    height: 5vh;
+    font-size: var(--lg);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid var(--hospital-green);
+}
