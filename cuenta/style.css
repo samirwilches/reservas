@@ -17,30 +17,29 @@ body {
     width: 100vw;
     height: 100vh;
 }
-.header-nav {
+.navbar-header{
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
     border: 2px solid var(--hospital-green);
-    list-style: none;
-    
+    list-style: none;    
 }
-.header-nav img {
+.navbar-header img {
     width: 80px;
     padding-left: 5px;
     margin-top: 6px;
 }
-.header-nav a{
+.navbar-header a{
     text-decoration: none;
 }
-.facagol{
+.faca a{
     color: var(--black);
     font-size: 40px;
     font-weight: bold;
 }
-.usuario a{
+.sesion a{
     color: var(--white);
     background: #13a4a4;   
     border-radius: 2px;
@@ -48,21 +47,24 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
-.login {
+.contenedor {
+    padding-top: 10px;
     width: 100vw;
     height: 85vh;
     display: grid;
-    place-items: center;
+    align-items:center ;
 }
-.form-container {
+.contenedor-section {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-form {
     width: 500px;
     height: auto;
-}
-.formulario {
     display: flex;
     flex-direction: column;
 }
-.formulario a {
+.contenedor-form a {
     color: var(--hospital-green);
     font-size: var(--sm);
     text-align: center;
@@ -91,7 +93,7 @@ body {
 .input-rol {
     margin-bottom: 22px;
 }
-#inicio-boton {
+.boton-menu{
     background-color: var(--hospital-green);
     border-radius: 8px;
     border: none;
@@ -102,28 +104,18 @@ body {
     font-size: var(--md);
     font-weight: bold;
 }
-#inicio-boton a{
+.boton-menu a{
     color: var(--black);
-}
-#iniciar-login {
-    background-color: var(--hospital-green);
-    border-radius: 8px;
+    width: 300px;
     border: none;
-    color: var(--black);
-    height: 40px;
-    width: 100%;
-    cursor: pointer;
-    font-size: var(--md);
-    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
 }
-#iniciar-login a{
-    color: var(--black);
-}
-.final-pagina1 {
+.footer-menu {
     width: auto;
     height: 5vh;
     font-size: var(--lg);
     font-weight: bold;
     text-align: center;
     border: 1px solid var(--hospital-green);
-}
+} 

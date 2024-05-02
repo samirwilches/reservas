@@ -42,7 +42,7 @@ body {
 }
 .usuario a{
     color: var(--white);
-    background: #13a4a4;   
+    background: var(--white);   
     border-radius: 2px;
     padding: 10px;
     font-size: 20px;
